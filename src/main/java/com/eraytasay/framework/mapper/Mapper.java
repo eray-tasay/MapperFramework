@@ -4,7 +4,6 @@ import com.eraytasay.framework.mapper.annotation.FieldMapperMethod;
 import com.eraytasay.framework.mapper.annotation.MapperMethod;
 import com.eraytasay.framework.mapper.annotation.Mapping;
 import com.eraytasay.framework.mapper.exception.MapperException;
-import com.eraytasay.util.string.StringUtil;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -12,7 +11,6 @@ import java.util.Arrays;
 import java.util.Optional;
 
 import static com.eraytasay.util.reflection.ReflectionUtil.*;
-import static com.eraytasay.util.reflection.ReflectionUtil.getAllPublicMethods;
 
 public class Mapper {
     private final Class<?> m_mapperCls;
